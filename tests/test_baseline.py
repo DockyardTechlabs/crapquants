@@ -186,3 +186,24 @@ class TestCompare:
         results = [_make_file_result([_make_func("f1")])]
         with pytest.raises(FileNotFoundError):
             compare(results, "/nonexistent/baseline.json")
+
+    def test_same_named_methods_not_collapsed(self, tmp_path):
+        """Two methods with the same name in one file (e.g. visit_Call in
+        two visitor classes) must be counted separately. Regression guard
+        for the file:function key collision that undercounted aggregate CRAP.
+        """
+        # Two functions, identical name, same file, DIFFERENT line numbers
+        f_a = _make_func("visit_Call", cc=8, cov=40.0)
+        f_b = _make_func("visit_Call", cc=12, cov=30.0)
+        # Give them distinct line numbers so they are genuinely two functions
+        object.__setattr__(f_b.metrics, "line_start", 99)
+        object.__setattr__(f_b.crap, "line_number", 99)
+
+        results = [_make_file_result([f_a, f_b])]
+        save_baseline(results, tmp_path / "baseline.json")
+
+        # Self-comparison against identical code: delta must be exactly 0
+        comp = compare(results, tmp_path / "baseline.json")
+        assert comp.aggregate_delta == 0.0
+        assert comp.total_current_functions == 2
+        assert comp.total_baseline_functions == 2

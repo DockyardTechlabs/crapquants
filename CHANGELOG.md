@@ -5,6 +5,20 @@ All notable changes to CRAPQuants are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Fixed
+- Baseline comparison no longer collapses same-named methods within a single file.
+  The lookup key now includes the line number (file:function:line), matching how
+  save.py stores entries. Previously, multiple methods sharing a name in one file
+  (e.g. visit_Call in two visitor classes) were counted once, undercounting the
+  aggregate CRAP and producing a non-zero self-comparison delta.
+
+### Changed
+- CI self-analyze step now uses the baseline regression gate: pre-existing CRAPpy
+  functions no longer fail the build; only new regressions (new CRAPpy functions or
+  an aggregate CRAP increase) cause a failure.
+
 ## [1.0.0] — 2026
 
 First public release.

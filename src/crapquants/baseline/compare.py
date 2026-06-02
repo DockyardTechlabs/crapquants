@@ -135,19 +135,22 @@ def compare(
     """
     baseline = load_baseline(baseline_path)
 
-    # Build lookup from baseline: key = "file:function"
+    # Build lookup from baseline: key = "file:function:line"
+    # Including line disambiguates same-named methods within one file
+    # (e.g. multiple classes each defining visit_Call). Without it,
+    # entries collapse and the aggregate is undercounted.
     baseline_lookup: dict[str, dict[str, Any]] = {}
     for entry in baseline["entries"]:
-        key = f"{entry['file']}:{entry['function']}"
+        key = f"{entry['file']}:{entry['function']}:{entry.get('line', 0)}"
         baseline_lookup[key] = entry
 
-    # Build lookup from current results
+    # Build lookup from current results (same key scheme)
     current_lookup: dict[str, dict[str, Any]] = {}
     for file_result in results:
         for func in file_result.functions:
             m = func.metrics
             c = func.crap
-            key = f"{file_result.file_path}:{m.name}"
+            key = f"{file_result.file_path}:{m.name}:{m.line_start}"
             current_lookup[key] = {
                 "file": file_result.file_path,
                 "function": m.name,
