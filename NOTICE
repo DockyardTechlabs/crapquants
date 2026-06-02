@@ -1,0 +1,30 @@
+CRAPQuants
+Copyright (c) 2026 Tushar Ghorpade / Dockyard Techlabs
+
+This product's SOURCE CODE is licensed under the MIT License (see LICENSE).
+
+NAME AND BRANDING NOTICE
+------------------------
+The name "CRAPQuants" and its associated branding and identity are
+the project identity of Dockyard Techlabs. The MIT License applies to
+the source code only and does not grant rights to use the "CRAPQuants"
+name or brand in a manner that implies official status or endorsement,
+or that presents a derivative work as the original project.
+
+Permitted: forking the code and shipping it under your own name;
+stating that your work is "based on CRAPQuants."
+
+Not permitted: redistributing a fork as the official "CRAPQuants";
+removing the copyright notice from the LICENSE file.
+
+Canonical project:
+  GitHub: https://github.com/dockyardtechlabs/crapquants
+  PyPI:   https://pypi.org/project/crapquants/
+
+ATTRIBUTION
+-----------
+The CRAP metric was originally created by Alberto Savoia and Bob Evans
+at Google (2007). CRAPQuants implements diagnostic frameworks derived
+from works by Michael Feathers, John Ousterhout, Andrew Hunt, David
+Thomas, Martin Fowler, Kent Beck, Adam Tornhill, Neal Ford, and the
+SonarSource Cognitive Complexity specification by G. Ann Campbell.

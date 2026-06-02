@@ -1,0 +1,6 @@
+radon>=6.0
+pydantic>=2.0
+structlog>=24.0
+rich>=13.0
+typer>=0.9
+polars>=0.20

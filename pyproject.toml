@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crapquants"
+version = "1.0.0"
+description = "Python-native CRAP metric tool with book-integrated diagnostics and architectural fitness functions"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Tushar Ghorpade", email = "tushar@dockyardtechlabs.com"},
+]
+keywords = ["crap", "code-quality", "static-analysis", "cyclomatic-complexity", "refactoring"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "radon>=6.0",
+    "pydantic>=2.0",
+    "structlog>=24.0",
+    "rich>=13.0",
+    "typer>=0.9",
+    "polars>=0.20",
+]
+
+[project.optional-dependencies]
+ai = ["openai>=1.0", "anthropic>=0.20"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "pip-tools>=7.0"]
+
+[project.scripts]
+crapquants = "crapquants.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src/crapquants"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80

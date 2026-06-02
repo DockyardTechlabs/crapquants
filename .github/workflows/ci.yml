@@ -1,0 +1,72 @@
+# CRAPQuants CI/CD Pipeline
+# Rules: #49 (workflow as code), #51 (SHA-pinned), #52 (least-privilege), #54 (no expression injection)
+
+name: CRAPQuants CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --only-binary :all: radon pydantic structlog rich typer polars pytest pytest-cov
+
+      - name: Run tests with coverage
+        run: |
+          source .venv/bin/activate
+          PYTHONPATH=src python -m pytest tests/ -v --cov=src/crapquants --cov-report=json --cov-report=term-missing
+
+      - name: Self-analyze with CRAPQuants
+        run: |
+          source .venv/bin/activate
+          PYTHONPATH=src python -m crapquants.cli analyze src/crapquants/ -c coverage.json -f github_actions --level standard
+
+  quality-gate:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'pull_request'
+    permissions:
+      contents: read
+      checks: write
+
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5
+        with:
+          python-version: "3.11"
+
+      - name: Install, test, and gate
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install --only-binary :all: radon pydantic structlog rich typer polars pytest pytest-cov
+          PYTHONPATH=src python -m pytest tests/ --cov=src/crapquants --cov-report=json -q
+          PYTHONPATH=src python -m crapquants.cli analyze src/crapquants/ -c coverage.json --baseline data/baseline.json -f github_actions --level standard

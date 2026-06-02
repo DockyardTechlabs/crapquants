@@ -1,0 +1,1 @@
+"""CRAPQuants security module."""

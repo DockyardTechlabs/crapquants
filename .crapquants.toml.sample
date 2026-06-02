@@ -1,0 +1,32 @@
+[crapquants]
+version = "1.0"
+analysis_level = "standard"
+coverage_report = "coverage.json"
+source_paths = ["src/"]
+exclude_patterns = ["test_*", "conftest.py"]
+
+[thresholds]
+crap = 30
+cognitive_complexity = 15
+abc = 30
+
+[frameworks]
+feathers = true
+ousterhout = true
+hunt_thomas = true
+fowler = true
+tornhill = true
+ford = true
+
+[ai_explain]
+enabled = false
+provider = "ollama"
+
+[security]
+ast_security_fallback = true
+semgrep_enabled = false
+
+[reporting]
+format = "table"
+show_passing = false
+top_n = 20

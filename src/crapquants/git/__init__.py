@@ -1,0 +1,1 @@
+"""CRAPQuants git module."""
