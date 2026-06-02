@@ -162,3 +162,44 @@ class TestCLIAnalyze:
             "--level", "quick",
         ])
         assert result.exit_code == 1
+
+    def test_baseline_gate_passes_on_unchanged_crappy_code(self, sample_py_file, tmp_path):
+        # Save a baseline that includes the pre-existing CRAPpy function,
+        # then compare unchanged code against it: regression gate should PASS
+        # even though CRAPpy functions exist (they're not NEW).
+        baseline = tmp_path / "baseline.json"
+        save = runner.invoke(app, [
+            "analyze", str(sample_py_file), "--level", "quick",
+            "--save-baseline", str(baseline),
+        ])
+        assert baseline.exists()
+
+        result = runner.invoke(app, [
+            "analyze", str(sample_py_file), "--level", "quick",
+            "--baseline", str(baseline),
+        ])
+        # Pre-existing CRAPpy functions must NOT fail the build under baseline mode
+        assert result.exit_code == 0
+
+    def test_baseline_gate_fails_on_new_regression(self, sample_py_file, tmp_path):
+        # Baseline from the original file, then ADD a new CRAPpy function
+        # and compare: regression gate should FAIL (exit 1).
+        baseline = tmp_path / "baseline.json"
+        runner.invoke(app, [
+            "analyze", str(sample_py_file), "--level", "quick",
+            "--save-baseline", str(baseline),
+        ])
+        # Append a new awful function to introduce a regression
+        with open(sample_py_file, "a") as fh:
+            fh.write(
+                "\ndef new_monster(a, b, c, d):\n"
+                "    if a:\n        if b:\n            if c:\n"
+                "                if d:\n                    for x in range(a):\n"
+                "                        if x > b:\n                            return x\n"
+                "    return None\n"
+            )
+        result = runner.invoke(app, [
+            "analyze", str(sample_py_file), "--level", "quick",
+            "--baseline", str(baseline),
+        ])
+        assert result.exit_code == 1

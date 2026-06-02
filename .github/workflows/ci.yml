@@ -41,10 +41,10 @@ jobs:
           source .venv/bin/activate
           PYTHONPATH=src python -m pytest tests/ -v --cov=src/crapquants --cov-report=json --cov-report=term-missing
 
-      - name: Self-analyze with CRAPQuants
+      - name: Self-analyze with CRAPQuants (baseline regression gate)
         run: |
           source .venv/bin/activate
-          PYTHONPATH=src python -m crapquants.cli analyze src/crapquants/ -c coverage.json -f github_actions --level standard
+          PYTHONPATH=src python -m crapquants.cli analyze src/crapquants/ -c coverage.json --baseline data/baseline.json -f github_actions --level standard
 
   quality-gate:
     runs-on: ubuntu-latest

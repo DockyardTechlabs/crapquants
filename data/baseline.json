@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0.0",
   "tool": "crapquants",
-  "saved_at": "2026-05-26T01:54:55.591234+00:00",
+  "saved_at": "2026-06-02T08:20:31.000705+00:00",
   "git_commit": null,
-  "total_functions": 189,
-  "crappy_functions": 44,
-  "aggregate_crap": 9034.0,
-  "chain_head": "c2d1d7b4baec222a",
+  "total_functions": 193,
+  "crappy_functions": 6,
+  "aggregate_crap": 1086.88,
+  "chain_head": "b00de5b5bf123b11",
   "entries": [
     {
       "file": "src/crapquants/ai_explain/explainer.py",
@@ -14,10 +14,10 @@
       "line": 55,
       "cc": 5,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 100.0,
+      "crap_score": 5.0,
       "is_crappy": false,
-      "chain_hash": "1620b2c1de92619b"
+      "chain_hash": "3393daa65f2b6d88"
     },
     {
       "file": "src/crapquants/ai_explain/explainer.py",
@@ -25,10 +25,10 @@
       "line": 115,
       "cc": 3,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "d4b30aec429b757f"
+      "chain_hash": "def32d7126655828"
     },
     {
       "file": "src/crapquants/ai_explain/explainer.py",
@@ -36,10 +36,10 @@
       "line": 162,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 86.67,
+      "crap_score": 4.04,
       "is_crappy": false,
-      "chain_hash": "e31cf7865c0d4068"
+      "chain_hash": "ae15a830ecd472ce"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -47,10 +47,10 @@
       "line": 93,
       "cc": 3,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "9aef63491e2963bb"
+      "chain_hash": "e59c5a924653a11d"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -58,10 +58,10 @@
       "line": 111,
       "cc": 4,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 7.69,
+      "crap_score": 16.59,
       "is_crappy": false,
-      "chain_hash": "fe44f9407d9e7a38"
+      "chain_hash": "b992d1e1b9660340"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -69,10 +69,10 @@
       "line": 148,
       "cc": 6,
       "cogc": 5,
-      "coverage": 0.0,
-      "crap_score": 42.0,
+      "coverage": 4.76,
+      "crap_score": 37.1,
       "is_crappy": true,
-      "chain_hash": "b4aff28f899a6423"
+      "chain_hash": "766f4212947fef89"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -80,10 +80,10 @@
       "line": 188,
       "cc": 6,
       "cogc": 5,
-      "coverage": 0.0,
-      "crap_score": 42.0,
+      "coverage": 5.26,
+      "crap_score": 36.61,
       "is_crappy": true,
-      "chain_hash": "d496144882f1659e"
+      "chain_hash": "e7e64782d18ab6e7"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -91,10 +91,10 @@
       "line": 28,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "2df9a9ca1a3d6f4e"
+      "chain_hash": "7f7fe7311c75f87d"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -102,10 +102,10 @@
       "line": 61,
       "cc": 3,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 95.65,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "3aa366edace2d292"
+      "chain_hash": "cc0ed1cb30b1999b"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -113,10 +113,10 @@
       "line": 71,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "7b7abc74150503fb"
+      "chain_hash": "80306abdde146641"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -124,10 +124,10 @@
       "line": 75,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 75.0,
+      "crap_score": 2.06,
       "is_crappy": false,
-      "chain_hash": "f6486eaf54d40a06"
+      "chain_hash": "5cdbba270367520d"
     },
     {
       "file": "src/crapquants/ai_explain/provider.py",
@@ -135,10 +135,10 @@
       "line": 81,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "e73a822e18e0f98a"
+      "chain_hash": "ef5ac167acf75456"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -146,10 +146,10 @@
       "line": 94,
       "cc": 4,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "409fa325847cf01c"
+      "chain_hash": "8c55fe9d9a68ebdb"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -157,10 +157,10 @@
       "line": 120,
       "cc": 18,
       "cogc": 15,
-      "coverage": 0.0,
-      "crap_score": 342.0,
-      "is_crappy": true,
-      "chain_hash": "c8a96168b4d94528"
+      "coverage": 100.0,
+      "crap_score": 18.0,
+      "is_crappy": false,
+      "chain_hash": "0747d8bf0eb8f06c"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -168,10 +168,10 @@
       "line": 31,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "bc9f9e1567667898"
+      "chain_hash": "f6b18262205ddbf5"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -179,10 +179,10 @@
       "line": 47,
       "cc": 7,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 56.0,
-      "is_crappy": true,
-      "chain_hash": "ea1a952afb82ddb9"
+      "coverage": 85.71,
+      "crap_score": 7.14,
+      "is_crappy": false,
+      "chain_hash": "5c6eabc124b5da8f"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -190,10 +190,10 @@
       "line": 67,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "e7d210f00730b9c9"
+      "chain_hash": "0f6f5b25954a91c2"
     },
     {
       "file": "src/crapquants/baseline/compare.py",
@@ -201,10 +201,10 @@
       "line": 72,
       "cc": 9,
       "cogc": 8,
-      "coverage": 0.0,
-      "crap_score": 90.0,
-      "is_crappy": true,
-      "chain_hash": "b0f99a282816b873"
+      "coverage": 70.59,
+      "crap_score": 11.06,
+      "is_crappy": false,
+      "chain_hash": "1949f65e70e6eaff"
     },
     {
       "file": "src/crapquants/baseline/save.py",
@@ -212,10 +212,10 @@
       "line": 27,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "6108d870879fd349"
+      "chain_hash": "73db208e381d358f"
     },
     {
       "file": "src/crapquants/baseline/save.py",
@@ -223,10 +223,10 @@
       "line": 33,
       "cc": 6,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "b0a9762bcfd69e67"
+      "coverage": 100.0,
+      "crap_score": 6.0,
+      "is_crappy": false,
+      "chain_hash": "cf27a00be57ad719"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -234,10 +234,10 @@
       "line": 82,
       "cc": 9,
       "cogc": 14,
-      "coverage": 0.0,
-      "crap_score": 90.0,
-      "is_crappy": true,
-      "chain_hash": "2963e5a38195a3c7"
+      "coverage": 77.78,
+      "crap_score": 9.89,
+      "is_crappy": false,
+      "chain_hash": "5a0161df696df66e"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -245,10 +245,10 @@
       "line": 121,
       "cc": 8,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 72.0,
+      "coverage": 27.27,
+      "crap_score": 32.62,
       "is_crappy": true,
-      "chain_hash": "19812adc148a1b31"
+      "chain_hash": "0181279aac852c84"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -256,10 +256,10 @@
       "line": 142,
       "cc": 6,
       "cogc": 9,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "347b12cbb2de59e0"
+      "coverage": 100.0,
+      "crap_score": 6.0,
+      "is_crappy": false,
+      "chain_hash": "a0da2b26bf2e856f"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -267,32 +267,32 @@
       "line": 188,
       "cc": 14,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 210.0,
-      "is_crappy": true,
-      "chain_hash": "3b6cd3eb29d5b54d"
+      "coverage": 100.0,
+      "crap_score": 14.0,
+      "is_crappy": false,
+      "chain_hash": "45aaae6fcf951b45"
     },
     {
       "file": "src/crapquants/cli.py",
       "function": "analyze",
       "line": 214,
-      "cc": 42,
-      "cogc": 76,
-      "coverage": 0.0,
-      "crap_score": 1806.0,
+      "cc": 43,
+      "cogc": 77,
+      "coverage": 78.76,
+      "crap_score": 60.72,
       "is_crappy": true,
-      "chain_hash": "dac75dbcf2ffa6d3"
+      "chain_hash": "eb78f95dc8ea8595"
     },
     {
       "file": "src/crapquants/cli.py",
       "function": "version",
-      "line": 456,
+      "line": 465,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "2a4210eff27ac68b"
+      "chain_hash": "21c00a7d1f83d259"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -300,10 +300,10 @@
       "line": 57,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "e2e0a04d5dc978a3"
+      "chain_hash": "4ee86e36fe03cf07"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -311,10 +311,10 @@
       "line": 64,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "b288d9ad646aa7ad"
+      "chain_hash": "506408a6d8b11546"
     },
     {
       "file": "src/crapquants/cli.py",
@@ -322,32 +322,32 @@
       "line": 72,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "16e79bb439a53204"
+      "chain_hash": "7c60fee2cbfea5c4"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "compute_cognitive_complexity",
-      "line": 306,
+      "line": 353,
       "cc": 5,
       "cogc": 7,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 100.0,
+      "crap_score": 5.0,
       "is_crappy": false,
-      "chain_hash": "8d4221929c6c4d55"
+      "chain_hash": "7dcb13a48f0f7993"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "compute_abc",
-      "line": 343,
+      "line": 392,
       "cc": 8,
       "cogc": 13,
-      "coverage": 0.0,
-      "crap_score": 72.0,
-      "is_crappy": true,
-      "chain_hash": "8a3eeef653f74001"
+      "coverage": 100.0,
+      "crap_score": 8.0,
+      "is_crappy": false,
+      "chain_hash": "6ce8f3731ae99c3b"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
@@ -355,10 +355,10 @@
       "line": 29,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "0cc6e5352dc95c5a"
+      "chain_hash": "a58d1feaf0acdae8"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
@@ -366,10 +366,10 @@
       "line": 39,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "858d5e325fb8df50"
+      "chain_hash": "be3255cdd715bf21"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
@@ -377,10 +377,10 @@
       "line": 55,
       "cc": 3,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 68.42,
+      "crap_score": 3.28,
       "is_crappy": false,
-      "chain_hash": "7f0f3c42734163ab"
+      "chain_hash": "71b478121802cffb"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
@@ -388,296 +388,318 @@
       "line": 71,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d96d667c20393cd2"
+      "chain_hash": "c224a8763172f922"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "_increment",
-      "line": 76,
+      "line": 78,
       "cc": 2,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 75.0,
+      "crap_score": 2.06,
       "is_crappy": false,
-      "chain_hash": "75cb0a615b9406c3"
+      "chain_hash": "bb09b942ffa65f6f"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "_visit_with_nesting",
-      "line": 83,
+      "line": 85,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "fcf2b94ed516ae10"
+      "chain_hash": "21db77e128198004"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_If",
-      "line": 92,
+      "line": 94,
       "cc": 8,
       "cogc": 25,
-      "coverage": 0.0,
-      "crap_score": 72.0,
-      "is_crappy": true,
-      "chain_hash": "ade14a5cd37c883d"
+      "coverage": 76.67,
+      "crap_score": 8.81,
+      "is_crappy": false,
+      "chain_hash": "37d8d1a5677a040b"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "_visit_orelse_chain",
-      "line": 132,
+      "line": 134,
       "cc": 4,
       "cogc": 11,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 6.67,
+      "crap_score": 17.01,
       "is_crappy": false,
-      "chain_hash": "23ea739b8392eaa1"
+      "chain_hash": "e4b707939c6013f9"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_For",
-      "line": 150,
+      "line": 152,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d4e4bb658645c174"
+      "chain_hash": "4e69bc2459e9abb9"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_While",
-      "line": 155,
+      "line": 157,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "44e0f0aa8ea7a10a"
+      "chain_hash": "e92f92705c78024c"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_Match",
-      "line": 160,
+      "line": 162,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "f215ddee61cf6326"
+      "chain_hash": "2dd94ddbd560a17a"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_ExceptHandler",
-      "line": 167,
+      "line": 169,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "1d6e1f50fea60404"
+      "chain_hash": "d5e1046299939aec"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_BoolOp",
-      "line": 174,
+      "line": 176,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 83.33,
+      "crap_score": 4.07,
       "is_crappy": false,
-      "chain_hash": "69bc769bd425ad06"
+      "chain_hash": "697dbfb88337bcdc"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_IfExp",
-      "line": 193,
+      "line": 195,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 12.5,
+      "crap_score": 1.67,
       "is_crappy": false,
-      "chain_hash": "b4aa41621f340c63"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_Lambda",
-      "line": 205,
-      "cc": 1,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
-      "is_crappy": false,
-      "chain_hash": "b267bc8b9e127b28"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_FunctionDef",
-      "line": 212,
-      "cc": 3,
-      "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
-      "is_crappy": false,
-      "chain_hash": "6c3530ef21c05097"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "_ABCVisitor",
-      "line": 230,
-      "cc": 2,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 6.0,
-      "is_crappy": false,
-      "chain_hash": "553597029bdc6505"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "__init__",
-      "line": 241,
-      "cc": 1,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
-      "is_crappy": false,
-      "chain_hash": "4341df398809497c"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_Assign",
-      "line": 246,
-      "cc": 1,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
-      "is_crappy": false,
-      "chain_hash": "105fda1090927c4d"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_AugAssign",
-      "line": 250,
-      "cc": 1,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
-      "is_crappy": false,
-      "chain_hash": "800ae38169fb8b03"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_AnnAssign",
-      "line": 254,
-      "cc": 2,
-      "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
-      "is_crappy": false,
-      "chain_hash": "20a2c829bec47edc"
-    },
-    {
-      "file": "src/crapquants/core/ast_visitors.py",
-      "function": "visit_NamedExpr",
-      "line": 259,
-      "cc": 1,
-      "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
-      "is_crappy": false,
-      "chain_hash": "f2ac81e2beccb3a4"
+      "chain_hash": "ca6395e9fd26ec86"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_Call",
-      "line": 263,
+      "line": 207,
+      "cc": 4,
+      "cogc": 3,
+      "coverage": 100.0,
+      "crap_score": 4.0,
+      "is_crappy": false,
+      "chain_hash": "839a27999257bcef"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_Lambda",
+      "line": 224,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
+      "coverage": 20.0,
+      "crap_score": 1.51,
+      "is_crappy": false,
+      "chain_hash": "0dfe7ff063ad3499"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_FunctionDef",
+      "line": 231,
+      "cc": 2,
+      "cogc": 6,
+      "coverage": 100.0,
       "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "48f6ed627aa01e1e"
+      "chain_hash": "23a9cb0939009901"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "_mark_decorator_children",
+      "line": 257,
+      "cc": 5,
+      "cogc": 6,
+      "coverage": 100.0,
+      "crap_score": 5.0,
+      "is_crappy": false,
+      "chain_hash": "f73e956e2dfe7289"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "_ABCVisitor",
+      "line": 277,
+      "cc": 2,
+      "cogc": 0,
+      "coverage": 69.05,
+      "crap_score": 2.12,
+      "is_crappy": false,
+      "chain_hash": "0d05a877d68fdee2"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "__init__",
+      "line": 288,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
+      "is_crappy": false,
+      "chain_hash": "3ac6cccca3be2802"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_Assign",
+      "line": 293,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
+      "is_crappy": false,
+      "chain_hash": "5086ff58ec795b32"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_AugAssign",
+      "line": 297,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
+      "is_crappy": false,
+      "chain_hash": "33fdeebb8168c16a"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_AnnAssign",
+      "line": 301,
+      "cc": 2,
+      "cogc": 1,
+      "coverage": 25.0,
+      "crap_score": 3.69,
+      "is_crappy": false,
+      "chain_hash": "9dfc928c28565697"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_NamedExpr",
+      "line": 306,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
+      "is_crappy": false,
+      "chain_hash": "db66026d069dcdfd"
+    },
+    {
+      "file": "src/crapquants/core/ast_visitors.py",
+      "function": "visit_Call",
+      "line": 310,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
+      "is_crappy": false,
+      "chain_hash": "912c9f2ae119bf76"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_If",
-      "line": 267,
+      "line": 314,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d4df3909f47e8853"
+      "chain_hash": "c906333307bbbc65"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_IfExp",
-      "line": 271,
+      "line": 318,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "e57ee24ae15126f0"
+      "chain_hash": "b1c9f8126e55e1a2"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_BoolOp",
-      "line": 275,
+      "line": 322,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "f4565bd17c94c531"
+      "chain_hash": "7c14b63ce7efa06b"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_Compare",
-      "line": 280,
+      "line": 327,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "7cde3723638b6d1b"
+      "chain_hash": "ece4f49d1ee00ce2"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_While",
-      "line": 284,
+      "line": 331,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "313c1d4248ed7890"
+      "chain_hash": "1ff9ce87aa35febc"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "visit_Assert",
-      "line": 288,
+      "line": 335,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "842c238590cb9d6d"
+      "chain_hash": "10cd8ff63463281c"
     },
     {
       "file": "src/crapquants/core/ast_visitors.py",
       "function": "scalar",
-      "line": 293,
+      "line": 340,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "84f062ce19d1523e"
+      "chain_hash": "875dd3082529db23"
     },
     {
       "file": "src/crapquants/core/complexity.py",
@@ -685,10 +707,10 @@
       "line": 83,
       "cc": 18,
       "cogc": 25,
-      "coverage": 0.0,
-      "crap_score": 342.0,
-      "is_crappy": true,
-      "chain_hash": "762e1f745045e4fc"
+      "coverage": 75.68,
+      "crap_score": 22.66,
+      "is_crappy": false,
+      "chain_hash": "cd661bdb9c10636d"
     },
     {
       "file": "src/crapquants/core/complexity.py",
@@ -696,10 +718,10 @@
       "line": 188,
       "cc": 6,
       "cogc": 6,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "1de0bc5607303009"
+      "coverage": 50.0,
+      "crap_score": 10.5,
+      "is_crappy": false,
+      "chain_hash": "62b1e6db84e93219"
     },
     {
       "file": "src/crapquants/core/complexity.py",
@@ -707,10 +729,10 @@
       "line": 204,
       "cc": 6,
       "cogc": 6,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "0f8834d54d0c6612"
+      "coverage": 50.0,
+      "crap_score": 10.5,
+      "is_crappy": false,
+      "chain_hash": "3537221af2c28bcb"
     },
     {
       "file": "src/crapquants/core/complexity.py",
@@ -718,10 +740,10 @@
       "line": 35,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "a7abf533f57ad084"
+      "chain_hash": "6d28ffa53f4a4980"
     },
     {
       "file": "src/crapquants/core/complexity.py",
@@ -729,10 +751,10 @@
       "line": 62,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "f3a5da89a38bdc0f"
+      "chain_hash": "e18c4d41f4bcf073"
     },
     {
       "file": "src/crapquants/core/coverage_parser.py",
@@ -740,10 +762,10 @@
       "line": 47,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "ef7029aecbbc9658"
+      "chain_hash": "ede30297de82a226"
     },
     {
       "file": "src/crapquants/core/coverage_parser.py",
@@ -751,10 +773,10 @@
       "line": 100,
       "cc": 12,
       "cogc": 19,
-      "coverage": 0.0,
-      "crap_score": 156.0,
-      "is_crappy": true,
-      "chain_hash": "fdccefd061b751a9"
+      "coverage": 100.0,
+      "crap_score": 12.0,
+      "is_crappy": false,
+      "chain_hash": "86e3626c4dc9b56b"
     },
     {
       "file": "src/crapquants/core/coverage_parser.py",
@@ -762,10 +784,10 @@
       "line": 177,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "af6836e35a15c49c"
+      "chain_hash": "c78eb85100c5c198"
     },
     {
       "file": "src/crapquants/core/coverage_parser.py",
@@ -773,10 +795,10 @@
       "line": 25,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "6f2e5699e766d8d3"
+      "chain_hash": "e3f7bf7f1d395c96"
     },
     {
       "file": "src/crapquants/core/coverage_parser.py",
@@ -784,10 +806,10 @@
       "line": 37,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d4af6502f1978b6a"
+      "chain_hash": "3b4cca5d3ab4f440"
     },
     {
       "file": "src/crapquants/core/crap.py",
@@ -795,10 +817,10 @@
       "line": 38,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "6fcce1bd81474a77"
+      "chain_hash": "86164da576c0be73"
     },
     {
       "file": "src/crapquants/core/crap.py",
@@ -806,10 +828,10 @@
       "line": 63,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "1a789f7a857278c6"
+      "chain_hash": "4fd7364a8abd50b9"
     },
     {
       "file": "src/crapquants/core/crap.py",
@@ -817,10 +839,10 @@
       "line": 103,
       "cc": 5,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 92.86,
+      "crap_score": 5.01,
       "is_crappy": false,
-      "chain_hash": "2783e7b3d06a0f55"
+      "chain_hash": "ae0203d0d6ac8e87"
     },
     {
       "file": "src/crapquants/core/crap.py",
@@ -828,10 +850,10 @@
       "line": 147,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "5b8c854f840182ca"
+      "chain_hash": "fd7ab391fac10450"
     },
     {
       "file": "src/crapquants/core/crap.py",
@@ -839,10 +861,10 @@
       "line": 23,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "9f861cfc963f6a58"
+      "chain_hash": "67fa2cff0fd6aa43"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -850,10 +872,10 @@
       "line": 49,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 83.33,
+      "crap_score": 2.02,
       "is_crappy": false,
-      "chain_hash": "36352e82e4308db2"
+      "chain_hash": "25eb22d12a6152c7"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -861,10 +883,10 @@
       "line": 73,
       "cc": 9,
       "cogc": 13,
-      "coverage": 0.0,
-      "crap_score": 90.0,
-      "is_crappy": true,
-      "chain_hash": "69825b0193098eaf"
+      "coverage": 100.0,
+      "crap_score": 9.0,
+      "is_crappy": false,
+      "chain_hash": "f36472a469bf7a06"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -872,10 +894,10 @@
       "line": 130,
       "cc": 6,
       "cogc": 7,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "a533d4a39c21f100"
+      "coverage": 94.74,
+      "crap_score": 6.01,
+      "is_crappy": false,
+      "chain_hash": "ab8d71c17083d1bf"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -883,10 +905,10 @@
       "line": 210,
       "cc": 6,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 42.0,
+      "coverage": 11.11,
+      "crap_score": 31.28,
       "is_crappy": true,
-      "chain_hash": "4ca78cde27e19b40"
+      "chain_hash": "1f8c57c123c50b21"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -894,10 +916,10 @@
       "line": 31,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "251bf6e837f9ef08"
+      "chain_hash": "abd4f19a1b07cd70"
     },
     {
       "file": "src/crapquants/core/merge.py",
@@ -905,10 +927,10 @@
       "line": 40,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d6e90dae08849e7d"
+      "chain_hash": "00b5a46cd5e1a5b3"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -916,10 +938,10 @@
       "line": 45,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "0c735c1791c612d0"
+      "chain_hash": "7a43116dae46eaf2"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -927,10 +949,10 @@
       "line": 60,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "8abfdf31296dbcc5"
+      "chain_hash": "b065b63a5169d29b"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -938,10 +960,10 @@
       "line": 76,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "1cef31a3b1ffbfd8"
+      "chain_hash": "b5cdb42b9ca494ee"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -949,10 +971,10 @@
       "line": 87,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "305740623e7b3574"
+      "chain_hash": "bb41f8dce2712e3b"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -960,10 +982,10 @@
       "line": 104,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "8876e1807341ba05"
+      "chain_hash": "988e2528454f529a"
     },
     {
       "file": "src/crapquants/frameworks/feathers.py",
@@ -971,10 +993,10 @@
       "line": 126,
       "cc": 13,
       "cogc": 7,
-      "coverage": 0.0,
-      "crap_score": 182.0,
-      "is_crappy": true,
-      "chain_hash": "5ed03b83d1371850"
+      "coverage": 100.0,
+      "crap_score": 13.0,
+      "is_crappy": false,
+      "chain_hash": "825c71020171d3cf"
     },
     {
       "file": "src/crapquants/frameworks/ford.py",
@@ -982,10 +1004,10 @@
       "line": 82,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "0598618d440824fa"
+      "chain_hash": "1622ce09d3a16345"
     },
     {
       "file": "src/crapquants/frameworks/ford.py",
@@ -993,10 +1015,10 @@
       "line": 97,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "c6d53230d096854f"
+      "chain_hash": "23f4ad8aadfe3734"
     },
     {
       "file": "src/crapquants/frameworks/ford.py",
@@ -1004,10 +1026,10 @@
       "line": 160,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "40821155d45c1d3e"
+      "chain_hash": "9f834f1b715d9d73"
     },
     {
       "file": "src/crapquants/frameworks/ford.py",
@@ -1015,10 +1037,10 @@
       "line": 35,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d30b12849fc39926"
+      "chain_hash": "354d929155ec2005"
     },
     {
       "file": "src/crapquants/frameworks/fowler.py",
@@ -1026,10 +1048,10 @@
       "line": 40,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "d258c1ee6cc48d68"
+      "chain_hash": "754adcb9d3813c12"
     },
     {
       "file": "src/crapquants/frameworks/fowler.py",
@@ -1037,10 +1059,10 @@
       "line": 55,
       "cc": 19,
       "cogc": 14,
-      "coverage": 0.0,
-      "crap_score": 380.0,
-      "is_crappy": true,
-      "chain_hash": "1126a71e4d619773"
+      "coverage": 93.33,
+      "crap_score": 19.11,
+      "is_crappy": false,
+      "chain_hash": "04f08639661b7066"
     },
     {
       "file": "src/crapquants/frameworks/fowler.py",
@@ -1048,10 +1070,10 @@
       "line": 228,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "e0af616c7d648793"
+      "chain_hash": "fac22ad8901b262e"
     },
     {
       "file": "src/crapquants/frameworks/hunt_thomas.py",
@@ -1059,10 +1081,10 @@
       "line": 41,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "3967aa7f7ad3ca73"
+      "chain_hash": "a9fcf6e86d404944"
     },
     {
       "file": "src/crapquants/frameworks/hunt_thomas.py",
@@ -1070,10 +1092,10 @@
       "line": 69,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "3dbd8b054adc8659"
+      "chain_hash": "46f4fc5eb4d56e12"
     },
     {
       "file": "src/crapquants/frameworks/hunt_thomas.py",
@@ -1081,10 +1103,10 @@
       "line": 106,
       "cc": 12,
       "cogc": 6,
-      "coverage": 0.0,
-      "crap_score": 156.0,
-      "is_crappy": true,
-      "chain_hash": "e443df07dd3c83bc"
+      "coverage": 100.0,
+      "crap_score": 12.0,
+      "is_crappy": false,
+      "chain_hash": "394457dd5c1e426f"
     },
     {
       "file": "src/crapquants/frameworks/hunt_thomas.py",
@@ -1092,10 +1114,10 @@
       "line": 57,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "2f56e321202ce958"
+      "chain_hash": "9e60fa5652badda9"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1103,10 +1125,10 @@
       "line": 48,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "87f9e95f30c29fcd"
+      "chain_hash": "10df383fcebe05b6"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1114,10 +1136,10 @@
       "line": 60,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "e04a35da5f6a045b"
+      "chain_hash": "036669a6570b8eb1"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1125,10 +1147,10 @@
       "line": 71,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "87811321e44e81ec"
+      "chain_hash": "00c7ae887ab72c8b"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1136,10 +1158,10 @@
       "line": 90,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "83a24bbbd685c703"
+      "chain_hash": "90d14bdfee86b5e1"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1147,10 +1169,10 @@
       "line": 117,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "2932cf7df188b1af"
+      "chain_hash": "624e26a6f4e599bc"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1158,10 +1180,10 @@
       "line": 132,
       "cc": 23,
       "cogc": 15,
-      "coverage": 0.0,
-      "crap_score": 552.0,
-      "is_crappy": true,
-      "chain_hash": "aa1c70383a0d0b0d"
+      "coverage": 100.0,
+      "crap_score": 23.0,
+      "is_crappy": false,
+      "chain_hash": "be97966357f9aa07"
     },
     {
       "file": "src/crapquants/frameworks/ousterhout.py",
@@ -1169,10 +1191,10 @@
       "line": 266,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "05d7fe8be04aa500"
+      "chain_hash": "17cff59b9ae96789"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1180,10 +1202,10 @@
       "line": 18,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "c9fa73583561e1b9"
+      "chain_hash": "7275f7aefabcf2a6"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1191,10 +1213,10 @@
       "line": 29,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "c70834e4c9abe5f5"
+      "chain_hash": "e313331d91e775ad"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1202,10 +1224,10 @@
       "line": 39,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "dad7571bdd7b8d6b"
+      "chain_hash": "7ce48963b509b581"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1213,10 +1235,10 @@
       "line": 48,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "656cc5cdba04ddc4"
+      "chain_hash": "09a4b1c888c4c2a9"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1224,10 +1246,10 @@
       "line": 59,
       "cc": 3,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 66.67,
+      "crap_score": 3.33,
       "is_crappy": false,
-      "chain_hash": "e8297fcbc8eb05b1"
+      "chain_hash": "cfd70a0f9b481d32"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1235,10 +1257,10 @@
       "line": 73,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 50.0,
+      "crap_score": 1.12,
       "is_crappy": false,
-      "chain_hash": "3a70bfdb714ba821"
+      "chain_hash": "d2c9a77bc89d2e2b"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1246,10 +1268,10 @@
       "line": 78,
       "cc": 2,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 50.0,
+      "crap_score": 2.5,
       "is_crappy": false,
-      "chain_hash": "67a91c756e675008"
+      "chain_hash": "f74962519e479997"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1257,10 +1279,10 @@
       "line": 83,
       "cc": 2,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 50.0,
+      "crap_score": 2.5,
       "is_crappy": false,
-      "chain_hash": "7150471505fd5dcf"
+      "chain_hash": "5e6d056f531b5fff"
     },
     {
       "file": "src/crapquants/frameworks/tags.py",
@@ -1268,43 +1290,65 @@
       "line": 88,
       "cc": 3,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 16.67,
+      "crap_score": 8.21,
       "is_crappy": false,
-      "chain_hash": "06636e7393940faf"
+      "chain_hash": "9ab18c7701d02873"
     },
     {
       "file": "src/crapquants/frameworks/tornhill.py",
       "function": "compute_tbs",
-      "line": 33,
+      "line": 35,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "e5e4dee5e398b90d"
+      "chain_hash": "57750f3e077453ce"
     },
     {
       "file": "src/crapquants/frameworks/tornhill.py",
       "function": "_tag",
-      "line": 74,
+      "line": 76,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "7f45114903370f3e"
+      "chain_hash": "6236b9946ba77a75"
     },
     {
       "file": "src/crapquants/frameworks/tornhill.py",
       "function": "analyze",
-      "line": 89,
+      "line": 91,
       "cc": 5,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 100.0,
+      "crap_score": 5.0,
       "is_crappy": false,
-      "chain_hash": "59f0c12b71826570"
+      "chain_hash": "61314d997a70d450"
+    },
+    {
+      "file": "src/crapquants/frameworks/tornhill.py",
+      "function": "analyze_with_git",
+      "line": 152,
+      "cc": 10,
+      "cogc": 6,
+      "coverage": 100.0,
+      "crap_score": 10.0,
+      "is_crappy": false,
+      "chain_hash": "820c6e5b72c0e4db"
+    },
+    {
+      "file": "src/crapquants/frameworks/tornhill.py",
+      "function": "GitContext",
+      "line": 140,
+      "cc": 1,
+      "cogc": 0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
+      "is_crappy": false,
+      "chain_hash": "d9396973aa9943ba"
     },
     {
       "file": "src/crapquants/git/churn.py",
@@ -1312,10 +1356,10 @@
       "line": 41,
       "cc": 8,
       "cogc": 12,
-      "coverage": 0.0,
-      "crap_score": 72.0,
-      "is_crappy": true,
-      "chain_hash": "d3dbe8107cfad6b9"
+      "coverage": 95.65,
+      "crap_score": 8.01,
+      "is_crappy": false,
+      "chain_hash": "7422c5595da00cf7"
     },
     {
       "file": "src/crapquants/git/churn.py",
@@ -1323,10 +1367,10 @@
       "line": 94,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "edd3d6ca656955d7"
+      "chain_hash": "c3d149d7c2e2056b"
     },
     {
       "file": "src/crapquants/git/churn.py",
@@ -1334,10 +1378,10 @@
       "line": 19,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "8be82e0e5b21d7b5"
+      "chain_hash": "f9ad9a69965e113f"
     },
     {
       "file": "src/crapquants/git/churn.py",
@@ -1345,10 +1389,10 @@
       "line": 32,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "9091b3d22085f85a"
+      "chain_hash": "4d4efcbb23e996fb"
     },
     {
       "file": "src/crapquants/git/coupling.py",
@@ -1356,10 +1400,10 @@
       "line": 33,
       "cc": 10,
       "cogc": 14,
-      "coverage": 0.0,
-      "crap_score": 110.0,
-      "is_crappy": true,
-      "chain_hash": "6a0524901defb3bd"
+      "coverage": 100.0,
+      "crap_score": 10.0,
+      "is_crappy": false,
+      "chain_hash": "5e69f48c18313e29"
     },
     {
       "file": "src/crapquants/git/coupling.py",
@@ -1367,10 +1411,10 @@
       "line": 22,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "061c375c142d3a22"
+      "chain_hash": "73aec722f4e449e7"
     },
     {
       "file": "src/crapquants/git/knowledge.py",
@@ -1378,10 +1422,10 @@
       "line": 31,
       "cc": 8,
       "cogc": 10,
-      "coverage": 0.0,
-      "crap_score": 72.0,
-      "is_crappy": true,
-      "chain_hash": "13fd11d52af79d6a"
+      "coverage": 100.0,
+      "crap_score": 8.0,
+      "is_crappy": false,
+      "chain_hash": "8f6d2dfc79f41db1"
     },
     {
       "file": "src/crapquants/git/knowledge.py",
@@ -1389,10 +1433,10 @@
       "line": 97,
       "cc": 2,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "1cbc88fd51b0d132"
+      "chain_hash": "0afb7721f2584cb6"
     },
     {
       "file": "src/crapquants/git/knowledge.py",
@@ -1400,10 +1444,10 @@
       "line": 19,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "ed30489d1926c8ab"
+      "chain_hash": "921882af450693a1"
     },
     {
       "file": "src/crapquants/git/log_parser.py",
@@ -1411,10 +1455,10 @@
       "line": 35,
       "cc": 6,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 42.0,
+      "coverage": 6.25,
+      "crap_score": 35.66,
       "is_crappy": true,
-      "chain_hash": "80bbde256d9ca290"
+      "chain_hash": "7e71b12b774ebbc5"
     },
     {
       "file": "src/crapquants/git/log_parser.py",
@@ -1422,10 +1466,10 @@
       "line": 94,
       "cc": 14,
       "cogc": 36,
-      "coverage": 0.0,
-      "crap_score": 210.0,
-      "is_crappy": true,
-      "chain_hash": "e4f23a7b50bab795"
+      "coverage": 87.5,
+      "crap_score": 14.38,
+      "is_crappy": false,
+      "chain_hash": "de9cac19359c1ce7"
     },
     {
       "file": "src/crapquants/git/log_parser.py",
@@ -1433,10 +1477,10 @@
       "line": 153,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 12.5,
+      "crap_score": 9.03,
       "is_crappy": false,
-      "chain_hash": "70e9c857992f03fd"
+      "chain_hash": "ded16d847cb7e4f2"
     },
     {
       "file": "src/crapquants/git/log_parser.py",
@@ -1444,10 +1488,10 @@
       "line": 23,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "f084de38923695d7"
+      "chain_hash": "aa066a9b9507291c"
     },
     {
       "file": "src/crapquants/git/trends.py",
@@ -1455,10 +1499,10 @@
       "line": 27,
       "cc": 6,
       "cogc": 5,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "cd8c687abe47fedf"
+      "coverage": 100.0,
+      "crap_score": 6.0,
+      "is_crappy": false,
+      "chain_hash": "bdd63eb41e9b8c89"
     },
     {
       "file": "src/crapquants/git/trends.py",
@@ -1466,10 +1510,10 @@
       "line": 53,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "dcfcfa0825724a6b"
+      "chain_hash": "37645cc74fe622e0"
     },
     {
       "file": "src/crapquants/git/trends.py",
@@ -1477,10 +1521,10 @@
       "line": 90,
       "cc": 5,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 81.82,
+      "crap_score": 5.15,
       "is_crappy": false,
-      "chain_hash": "3fc26d3f36770d6a"
+      "chain_hash": "d95450e91f84aa50"
     },
     {
       "file": "src/crapquants/git/trends.py",
@@ -1488,10 +1532,10 @@
       "line": 16,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "e306b66716e26d87"
+      "chain_hash": "d8ed83b2636f5b16"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1499,10 +1543,10 @@
       "line": 52,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "bffc8ddc52623610"
+      "chain_hash": "96df99c9788b8648"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1510,10 +1554,10 @@
       "line": 57,
       "cc": 5,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 5.88,
+      "crap_score": 25.84,
       "is_crappy": false,
-      "chain_hash": "5002257accae714a"
+      "chain_hash": "94664b7c604add0b"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1521,10 +1565,10 @@
       "line": 117,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 16.67,
+      "crap_score": 4.31,
       "is_crappy": false,
-      "chain_hash": "d15d8b8fb765d550"
+      "chain_hash": "78dcb7b654b525ca"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1532,10 +1576,10 @@
       "line": 132,
       "cc": 17,
       "cogc": 31,
-      "coverage": 0.0,
-      "crap_score": 306.0,
-      "is_crappy": true,
-      "chain_hash": "8f864759442d065c"
+      "coverage": 96.0,
+      "crap_score": 17.02,
+      "is_crappy": false,
+      "chain_hash": "e1ae7d94e855dba8"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1543,10 +1587,10 @@
       "line": 221,
       "cc": 4,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "b8565ce3b96708f7"
+      "chain_hash": "10bc03bb0e74f2ba"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1554,10 +1598,10 @@
       "line": 233,
       "cc": 5,
       "cogc": 7,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 100.0,
+      "crap_score": 5.0,
       "is_crappy": false,
-      "chain_hash": "940e1da632d164cf"
+      "chain_hash": "e7699a694515bf33"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1565,10 +1609,10 @@
       "line": 29,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "26cdfd74ef6e48c7"
+      "chain_hash": "127057a1652e5aea"
     },
     {
       "file": "src/crapquants/mutation/mutmut_runner.py",
@@ -1576,10 +1620,10 @@
       "line": 39,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "de2eb11771c6ff8b"
+      "chain_hash": "2c01d139d9bc7c71"
     },
     {
       "file": "src/crapquants/reporting/github_actions.py",
@@ -1587,10 +1631,10 @@
       "line": 16,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 50.0,
+      "crap_score": 4.12,
       "is_crappy": false,
-      "chain_hash": "d5cb36d89bdbd427"
+      "chain_hash": "1c363db11494331f"
     },
     {
       "file": "src/crapquants/reporting/github_actions.py",
@@ -1598,10 +1642,10 @@
       "line": 25,
       "cc": 7,
       "cogc": 18,
-      "coverage": 0.0,
-      "crap_score": 56.0,
-      "is_crappy": true,
-      "chain_hash": "09ec1890fc41cd63"
+      "coverage": 100.0,
+      "crap_score": 7.0,
+      "is_crappy": false,
+      "chain_hash": "bbbbafd8ff6ea548"
     },
     {
       "file": "src/crapquants/reporting/github_actions.py",
@@ -1609,10 +1653,10 @@
       "line": 83,
       "cc": 7,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 56.0,
-      "is_crappy": true,
-      "chain_hash": "2059c67fbf80af74"
+      "coverage": 100.0,
+      "crap_score": 7.0,
+      "is_crappy": false,
+      "chain_hash": "c0ae0ba523aa4eb9"
     },
     {
       "file": "src/crapquants/reporting/github_actions.py",
@@ -1620,10 +1664,10 @@
       "line": 149,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "50ab66d6afc94487"
+      "chain_hash": "d96add723ef661e7"
     },
     {
       "file": "src/crapquants/reporting/glossary.py",
@@ -1631,10 +1675,10 @@
       "line": 168,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "568740ed474d0cd1"
+      "chain_hash": "e48f7a653318486c"
     },
     {
       "file": "src/crapquants/reporting/glossary.py",
@@ -1642,10 +1686,10 @@
       "line": 227,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 33.33,
+      "crap_score": 1.3,
       "is_crappy": false,
-      "chain_hash": "16f250906a4fd2ff"
+      "chain_hash": "52c3becc0bacaaec"
     },
     {
       "file": "src/crapquants/reporting/glossary.py",
@@ -1653,10 +1697,10 @@
       "line": 261,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "4a3a6fd23339ce57"
+      "chain_hash": "c870c5c8c4398233"
     },
     {
       "file": "src/crapquants/reporting/json_report.py",
@@ -1664,10 +1708,10 @@
       "line": 18,
       "cc": 12,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 156.0,
-      "is_crappy": true,
-      "chain_hash": "cc1388502bdb40cd"
+      "coverage": 100.0,
+      "crap_score": 12.0,
+      "is_crappy": false,
+      "chain_hash": "76d05efbdf6f3f27"
     },
     {
       "file": "src/crapquants/reporting/json_report.py",
@@ -1675,10 +1719,10 @@
       "line": 137,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "ef524b3b693917b0"
+      "chain_hash": "e70bcda95dd1cab6"
     },
     {
       "file": "src/crapquants/reporting/json_report.py",
@@ -1686,10 +1730,10 @@
       "line": 159,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 77.78,
+      "crap_score": 3.1,
       "is_crappy": false,
-      "chain_hash": "00ed6d6fbd1e9f7b"
+      "chain_hash": "3f23b4f98fbf8f93"
     },
     {
       "file": "src/crapquants/reporting/markdown_report.py",
@@ -1697,10 +1741,10 @@
       "line": 13,
       "cc": 26,
       "cogc": 27,
-      "coverage": 0.0,
-      "crap_score": 702.0,
-      "is_crappy": true,
-      "chain_hash": "24ec4ce9a471fcfc"
+      "coverage": 100.0,
+      "crap_score": 26.0,
+      "is_crappy": false,
+      "chain_hash": "cc2f00263d047cd1"
     },
     {
       "file": "src/crapquants/reporting/markdown_report.py",
@@ -1708,10 +1752,10 @@
       "line": 131,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "7ebc2ab83bd2115e"
+      "chain_hash": "264d68303f2253c0"
     },
     {
       "file": "src/crapquants/reporting/markdown_report.py",
@@ -1719,10 +1763,10 @@
       "line": 146,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 75.0,
+      "crap_score": 4.25,
       "is_crappy": false,
-      "chain_hash": "dba57f587e6602b1"
+      "chain_hash": "98333ee8827adf5a"
     },
     {
       "file": "src/crapquants/reporting/markdown_report.py",
@@ -1730,10 +1774,10 @@
       "line": 156,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 85.71,
+      "crap_score": 3.03,
       "is_crappy": false,
-      "chain_hash": "f04a3dd4119e2423"
+      "chain_hash": "121dc70dccf614bb"
     },
     {
       "file": "src/crapquants/reporting/sarif.py",
@@ -1741,10 +1785,10 @@
       "line": 19,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "54e3154f0308e6ef"
+      "chain_hash": "29ac59a962fbd2ba"
     },
     {
       "file": "src/crapquants/reporting/sarif.py",
@@ -1752,10 +1796,10 @@
       "line": 29,
       "cc": 9,
       "cogc": 21,
-      "coverage": 0.0,
-      "crap_score": 90.0,
-      "is_crappy": true,
-      "chain_hash": "ed649941e9487606"
+      "coverage": 100.0,
+      "crap_score": 9.0,
+      "is_crappy": false,
+      "chain_hash": "2aa4b5e3040d61bc"
     },
     {
       "file": "src/crapquants/reporting/sarif.py",
@@ -1763,10 +1807,10 @@
       "line": 181,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "9d5040a1b084e5ef"
+      "chain_hash": "77fc80a3c435bde6"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1774,10 +1818,10 @@
       "line": 20,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "6e946288092b0198"
+      "chain_hash": "bcbe10dc8e3add56"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1785,10 +1829,10 @@
       "line": 30,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "e270398ecf02d70e"
+      "chain_hash": "be6cb19c147cf540"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1796,10 +1840,10 @@
       "line": 41,
       "cc": 4,
       "cogc": 3,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 62.5,
+      "crap_score": 4.84,
       "is_crappy": false,
-      "chain_hash": "dc1ac9f92ab4a391"
+      "chain_hash": "ab22c94bc4cc6cd0"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1807,10 +1851,10 @@
       "line": 52,
       "cc": 13,
       "cogc": 7,
-      "coverage": 0.0,
-      "crap_score": 182.0,
-      "is_crappy": true,
-      "chain_hash": "df932968a1c9734a"
+      "coverage": 100.0,
+      "crap_score": 13.0,
+      "is_crappy": false,
+      "chain_hash": "889e2896684783fc"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1818,10 +1862,10 @@
       "line": 96,
       "cc": 12,
       "cogc": 13,
-      "coverage": 0.0,
-      "crap_score": 156.0,
-      "is_crappy": true,
-      "chain_hash": "36cb0140c490fd58"
+      "coverage": 100.0,
+      "crap_score": 12.0,
+      "is_crappy": false,
+      "chain_hash": "96daf570dec3fffe"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1829,10 +1873,10 @@
       "line": 170,
       "cc": 11,
       "cogc": 16,
-      "coverage": 0.0,
-      "crap_score": 132.0,
-      "is_crappy": true,
-      "chain_hash": "51ee4ddc762c1e76"
+      "coverage": 96.67,
+      "crap_score": 11.0,
+      "is_crappy": false,
+      "chain_hash": "f24e92b05ddcaea2"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1840,10 +1884,10 @@
       "line": 230,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "54d4065003ab5703"
+      "chain_hash": "2a7c29d52df43905"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1851,10 +1895,10 @@
       "line": 265,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "a5779864d126817c"
+      "chain_hash": "9576a4b245508c49"
     },
     {
       "file": "src/crapquants/reporting/table.py",
@@ -1862,10 +1906,10 @@
       "line": 304,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 85.71,
+      "crap_score": 3.03,
       "is_crappy": false,
-      "chain_hash": "6d2bdd8f15d344ba"
+      "chain_hash": "8a16f6f04798bce4"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1873,10 +1917,10 @@
       "line": 213,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 7.69,
+      "crap_score": 10.08,
       "is_crappy": false,
-      "chain_hash": "ec00b6980436e0df"
+      "chain_hash": "dd6208db30465135"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1884,10 +1928,10 @@
       "line": 240,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "4c56bc3e3713eeaa"
+      "chain_hash": "2dfcb3af69f4738f"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1895,10 +1939,10 @@
       "line": 28,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "70036a8f9994738a"
+      "chain_hash": "830eefcfbe4dd1c8"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1906,10 +1950,10 @@
       "line": 72,
       "cc": 6,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 42.0,
-      "is_crappy": true,
-      "chain_hash": "18dcc2fd44e4d888"
+      "coverage": 89.02,
+      "crap_score": 6.05,
+      "is_crappy": false,
+      "chain_hash": "17101571d67ef2b8"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1917,10 +1961,10 @@
       "line": 75,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "13aebc1731de4bc5"
+      "chain_hash": "7b645b63c6d76237"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1928,10 +1972,10 @@
       "line": 80,
       "cc": 3,
       "cogc": 2,
-      "coverage": 0.0,
-      "crap_score": 12.0,
+      "coverage": 100.0,
+      "crap_score": 3.0,
       "is_crappy": false,
-      "chain_hash": "8d62b510383aa52b"
+      "chain_hash": "652725013a85efc6"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1939,10 +1983,10 @@
       "line": 86,
       "cc": 4,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 16.67,
+      "crap_score": 13.26,
       "is_crappy": false,
-      "chain_hash": "1da490de670c0345"
+      "chain_hash": "6c2195ce793776b3"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1950,10 +1994,10 @@
       "line": 93,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "df6b27016883db4f"
+      "chain_hash": "0a1864bfaf44bcde"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1961,10 +2005,10 @@
       "line": 100,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "5c909397bb67717f"
+      "chain_hash": "94d2af2f8119a322"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1972,10 +2016,10 @@
       "line": 104,
       "cc": 7,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 56.0,
-      "is_crappy": true,
-      "chain_hash": "f7a6b2484f00b289"
+      "coverage": 100.0,
+      "crap_score": 7.0,
+      "is_crappy": false,
+      "chain_hash": "ea28861e26b9720c"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1983,10 +2027,10 @@
       "line": 118,
       "cc": 5,
       "cogc": 5,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 100.0,
+      "crap_score": 5.0,
       "is_crappy": false,
-      "chain_hash": "f425aca7547c1aec"
+      "chain_hash": "a2e12ee0091e28e1"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -1994,10 +2038,10 @@
       "line": 138,
       "cc": 11,
       "cogc": 23,
-      "coverage": 0.0,
-      "crap_score": 132.0,
-      "is_crappy": true,
-      "chain_hash": "8954fa3ae3e90062"
+      "coverage": 100.0,
+      "crap_score": 11.0,
+      "is_crappy": false,
+      "chain_hash": "d86060b2826d8249"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -2005,10 +2049,10 @@
       "line": 161,
       "cc": 14,
       "cogc": 28,
-      "coverage": 0.0,
-      "crap_score": 210.0,
-      "is_crappy": true,
-      "chain_hash": "b3ccee4e39d3f278"
+      "coverage": 87.5,
+      "crap_score": 14.38,
+      "is_crappy": false,
+      "chain_hash": "afd4d1e490414999"
     },
     {
       "file": "src/crapquants/security/ast_security.py",
@@ -2016,10 +2060,10 @@
       "line": 190,
       "cc": 10,
       "cogc": 14,
-      "coverage": 0.0,
-      "crap_score": 110.0,
-      "is_crappy": true,
-      "chain_hash": "4db706f1329c4a2a"
+      "coverage": 81.82,
+      "crap_score": 10.6,
+      "is_crappy": false,
+      "chain_hash": "682b0818e0b7887d"
     },
     {
       "file": "src/crapquants/security/security_tags.py",
@@ -2027,10 +2071,10 @@
       "line": 54,
       "cc": 2,
       "cogc": 1,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "d7297c2449f64806"
+      "chain_hash": "7cfddec3471c7fba"
     },
     {
       "file": "src/crapquants/security/security_tags.py",
@@ -2038,10 +2082,10 @@
       "line": 81,
       "cc": 2,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 6.0,
+      "coverage": 100.0,
+      "crap_score": 2.0,
       "is_crappy": false,
-      "chain_hash": "b1f438d26aadd458"
+      "chain_hash": "6b970601be22efdf"
     },
     {
       "file": "src/crapquants/security/semgrep_runner.py",
@@ -2049,10 +2093,10 @@
       "line": 26,
       "cc": 1,
       "cogc": 0,
-      "coverage": 0.0,
-      "crap_score": 2.0,
+      "coverage": 100.0,
+      "crap_score": 1.0,
       "is_crappy": false,
-      "chain_hash": "270ea4d4c3df0530"
+      "chain_hash": "a8b4b83cd912b697"
     },
     {
       "file": "src/crapquants/security/semgrep_runner.py",
@@ -2060,10 +2104,10 @@
       "line": 31,
       "cc": 5,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 30.0,
+      "coverage": 5.88,
+      "crap_score": 25.84,
       "is_crappy": false,
-      "chain_hash": "f2106451020301bc"
+      "chain_hash": "75114d34a8cb00d8"
     },
     {
       "file": "src/crapquants/security/semgrep_runner.py",
@@ -2071,10 +2115,10 @@
       "line": 84,
       "cc": 4,
       "cogc": 4,
-      "coverage": 0.0,
-      "crap_score": 20.0,
+      "coverage": 100.0,
+      "crap_score": 4.0,
       "is_crappy": false,
-      "chain_hash": "057d541badb07003"
+      "chain_hash": "4611c133a441767e"
     },
     {
       "file": "src/crapquants/utils/logging.py",
@@ -2085,7 +2129,7 @@
       "coverage": 0.0,
       "crap_score": 6.0,
       "is_crappy": false,
-      "chain_hash": "c2d1d7b4baec222a"
+      "chain_hash": "b00de5b5bf123b11"
     }
   ]
 }

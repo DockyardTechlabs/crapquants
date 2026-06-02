@@ -419,6 +419,8 @@ def analyze(
         saved = do_save_baseline(merged_results, save_baseline_path)
         console.print(f"[green]Baseline saved to {saved}[/]")
 
+    baseline_compared = False
+    regression_detected = False
     if baseline:
         from crapquants.baseline.compare import compare as do_compare
         try:
@@ -442,13 +444,20 @@ def analyze(
                     console.print(f"  [green]Improved: {len(comp.improved)}[/]")
                 console.print()
 
-            if comp.is_regression:
-                crappy_count = max(crappy_count, 1)  # Force exit code 1 on regression
+            baseline_compared = True
+            regression_detected = comp.is_regression
         except FileNotFoundError:
             console.print(f"[yellow]Baseline not found: {baseline}. Skipping comparison.[/]")
 
-    # Exit code: non-zero if CRAPpy functions found (for CI gates)
-    if crappy_count > 0:
+    # Exit code logic (for CI gates):
+    #   - With a successful baseline comparison: gate on REGRESSION only.
+    #     Pre-existing CRAPpy functions don't fail the build; only new ones
+    #     or an aggregate increase do.
+    #   - Without a baseline: gate on absolute CRAPpy count.
+    if baseline_compared:
+        if regression_detected:
+            raise typer.Exit(code=1)
+    elif crappy_count > 0:
         raise typer.Exit(code=1)
 
 
