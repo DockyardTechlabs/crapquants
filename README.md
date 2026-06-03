@@ -1,7 +1,7 @@
 # CRAPQuants
 
 <p align="center">
-     <img src="docs/CRAPQuants1.png" alt="CRAPQuants Logo" width="300">
+     <img src="docs/CRAPQuants1.png" alt="CRAPQuants Logo" width="1000">
 </p>
 
 
