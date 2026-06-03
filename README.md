@@ -1,5 +1,10 @@
 # CRAPQuants
 
+<p align="center">
+     <img src="docs/CRAPQuants1.png" alt="CRAPQuants Logo" width="300">
+</p>
+
+
 **CRAP + Quantitative Connective Tissue for Python Code Quality**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
